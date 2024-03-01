@@ -202,6 +202,8 @@ body {
 
 .second-section-content > .terms {
     margin: 16px 0 48px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#6c757d;
 }
 
 .second-section-content > .btn {
