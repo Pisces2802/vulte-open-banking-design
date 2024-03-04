@@ -282,7 +282,7 @@ body {
     text-align: center;
     color: #61297f;
     font-weight: normal;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0; 
     font-size: 2.3rem;
     font-family: "Source Sans 3", sans-serif;
 }
@@ -308,11 +308,11 @@ body {
 }
 
 .section-ten_btn {
-    padding: 0.9rem 2.3rem;
-        background-color: #61297f;
-        color: #fff;
-        border-radius: 23px;
-        border: none;
-        margin-bottom: 3rem;
-        cursor: pointer;
+    padding: 0.9rem 2.5rem;
+    background-color: #61297f;
+    color: #fff;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+    font-family: "Source Sans 3", sans-serif;
 }
