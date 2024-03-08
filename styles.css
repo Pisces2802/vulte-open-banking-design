@@ -255,11 +255,11 @@ body {
 }
 
 .section-nine_container {
-    margin-left: 15px;
-    margin-right: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
     max-width: 1140px;
     /* border: 1px solid tomato; */
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 .section-nine_flex {
@@ -312,7 +312,112 @@ body {
     background-color: #61297f;
     color: #fff;
     border-radius: 23px;
+    font-size: 1rem;
     border: none;
     cursor: pointer;
     font-family: "Source Sans 3", sans-serif;
+}
+
+.section-ten_btn:hover {
+    background-color: rgba(97, 41, 127, 0.4);
+    color: #fff;
+}
+
+.section-footer {
+    padding: 3rem 0 2rem 0;
+    background-color: #4d285f;
+}
+
+.section-footer_container {
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+    padding: 0 15px;
+    /* border: 1px solid #fff; */
+    align-items: center;
+}
+
+.section-footer_container > div {
+    flex-basis: 50%;
+}
+
+.icons-container, .rights {
+    padding: 0 15px;
+} 
+
+.icons-container > ul  {
+    display: flex;
+    gap: 25px;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.facebook, .twitter, .instagram {
+    width: 25px;
+    min-height: 25px;
+    color: #ffffff;
+}
+
+.rights > p {
+    color: #fff;
+    text-align: end;
+    font-size: 20px;
+}
+
+.rights a {
+    font-size: 20px;
+}
+
+.rights > ul {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+/* breakpoint */
+/* from 0 - 991px */
+
+@media screen and (max-width: 991px) {
+     .section-flex {
+        display: block;
+    }
+
+    .section-content > * {
+        text-align: center;
+    }
+    .section-content > .btn {
+        display: block;
+        margin: 0 auto;
+    }  
+
+    .section-footer_container {
+        display: block;
+       }
+    .section-footer_container ul {
+        width: 50%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .icons-container {
+        margin-bottom: 60px;
+    }
+
+    .rights > p {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .rights a {
+        font-size: 16px;
+    }
 }
